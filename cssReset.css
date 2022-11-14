@@ -5,24 +5,12 @@
 :root {
 
     /*color*/
-    --clr-main-400: hsl(219, 84%, 67%, 1);
-    --clr-accent-200: hsl(286, 84%, 80%, 1);
-    --clr-accent-300: hsl(174, 78%, 76%, 1);
-    --clr-base-999: hsl(0, 0%, 94%, 1);
-    --clr-base-000: hsl(0, 0%, 5%, 1);
-    --clr-base-800: hsl(0, 0%, 50%, .3);
+    --clr: ;
   
   
     /*font-sizes*/
   
-    --ft-9: 9.375rem;
-    --ft-6: 6.25rem;
-    --ft-3: 3.5rem;
-    --ft-2: 2rem;
-    --ft-1-7: 1.75rem;
-    --ft-1-1: 1.125rem;
-    --ft-1: 1rem;
-    --ft-0-8: 0.875rem;
+    --ft-9: ;
     /*font-fams*/
   
     --ff-head: "Bodoni Moda", serif;
@@ -30,7 +18,6 @@
     --ff-sub: "Bodoni Moda", serif;
   
     /* other root sizes */
-    --mobile-nav-size: 2rem;
   }
   
   /* ----------------- */
@@ -42,7 +29,7 @@
   /* Box sizing rules */
   *,
   *::before,
-  w *::after {
+  *::after {
     box-sizing: border-box;
   }
   
@@ -68,7 +55,7 @@
     min-height: 100vh;
     text-rendering: optimizeSpeed;
     line-height: 1.5;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
   }
   
   /* A elements that don't have a class get default styles */
